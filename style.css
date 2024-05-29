@@ -1,9 +1,27 @@
+
+:root {
+    --main-color: #21243d;
+    
+  }
+.customBTN a{
+    background: var(--main-color);
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+/* header section  */
 header{
-    background: #21243d;
+    background: var(--main-color);
     
 }
 header nav .nav-link{
     color: #d3d3d8;
+}
+header nav .nav-link:hover{
+    color: #ffffff;
 }
 header form i{
     color:#fff;
@@ -13,4 +31,18 @@ a.nav-link.active{
 }
 a.nav-link.active:hover{
     color:#d3d3d8 !important;
+}
+
+/* bannner section  */
+.banner{
+    background: url(media/food-banner.jpg) center ;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: #fff;
+}
+.banner div{
+    justify-content: center;
+    padding-top: 200px;
+    max-width: 40%;
 }
