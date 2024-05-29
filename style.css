@@ -1,0 +1,16 @@
+header{
+    background: #21243d;
+    
+}
+header nav .nav-link{
+    color: #d3d3d8;
+}
+header form i{
+    color:#fff;
+}
+a.nav-link.active{
+    color:#fff !important;
+}
+a.nav-link.active:hover{
+    color:#d3d3d8 !important;
+}
