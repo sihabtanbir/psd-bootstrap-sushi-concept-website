@@ -8,8 +8,16 @@
     color: #fff;
     text-decoration: none;
     margin-right: 20px;
+    margin-top: 20px;
     padding: 5px 10px;
     border-radius: 5px;
+  }
+
+  .main-title{
+    text-align: center;
+    padding: 50px;
+    max-width: 50%;
+    margin: 0 auto;
   }
   
 /* header section  */
@@ -45,4 +53,19 @@ a.nav-link.active:hover{
     justify-content: center;
     padding-top: 200px;
     max-width: 40%;
+}
+/* popular menu section  */
+.popular {
+    background: var(--main-color);
+    color: #fff
+}
+
+.popular .row img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.popular .row .col-4{
+    padding: 50px;
 }
