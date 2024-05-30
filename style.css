@@ -1,12 +1,13 @@
 
 :root {
     --main-color: #21243d;
+    --secendary-color:#ffd17e;
     
   }
   .banner-title{
     justify-content: center;
-    padding-top: 200px;
-    max-width: 40%;
+    padding-top: 150px;
+    max-width: 80%;
 }
 .customBTN a{
     background: var(--main-color);
@@ -54,6 +55,9 @@ a.nav-link.active:hover{
     height: 550px;
     color: #fff;
 }
+.banner .banner-title{
+    max-width: 50%;
+}
 
 /* popular menu section  */
 .popular {
@@ -82,21 +86,87 @@ a.nav-link.active:hover{
 }
 
 /* statics section  */
-.statics{
+.statistics{
     background: var(--main-color);
     color:#fff;
     padding-bottom: 50px;
 }
-.statics .row .col-4{
+.staistics .row .col-4{
     text-align: center;
     margin:  auto;
     
 }
-.statics .row .col-4 div{
+.statistics .row .col-4 div{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     padding: 10px;
     border:2px solid;
     margin: auto;
+}
+
+.banner3{
+    background: var(--secendary-color);
+}
+.banner3 .row .col-6{
+    height: 550px;
+    
+ 
+}
+.banner3 .row .col-6 img{
+    height: 400px;
+    width: 400px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+     
+    
+}
+
+.quote{
+    text-align: center;
+    padding: 50px;
+    height: 500px;
+    width: 100%;
+    position: relative;
+   
+   color:#fff;
+   
+   background-color: rgba(84, 59, 227, 0.8) ;
+   background-image:  url('media/fast_food_fried_food.jpg');
+   
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size:cover ;
+    z-index: 1;
+    
+}
+.quote-content{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+    
+    left:0;
+    top:0;
+   
+    background-color: rgba(84, 59, 227, 0.6) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.quote p{
+    width: 550px;
+    text-align: center;
+    margin: auto;
+}
+.quote img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    z-index: 11;
 }
